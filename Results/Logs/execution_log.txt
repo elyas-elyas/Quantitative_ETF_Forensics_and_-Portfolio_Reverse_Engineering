@@ -1,0 +1,27 @@
+
+================================================================================
+Loading data from: /Users/elyas/Desktop/Projet/Quantitative_ETF_Forensics_and_ Portfolio_Reverse_Engineering
+================================================================================
+✓ Data aligned on 1405 trading days.
+✓ ETFs loaded: 105 | Assets: 14
+>> Computing advanced metrics (VaR, CVaR, Sortino)...
+>> K-Means Clustering (6 groups)...
+>> Analyzing cross-correlations & Forgotten Assets...
+   -> 3 ETFs classified as 'Forgotten' (< 0.45)
+>> Solving Mystery 1 (Static + Bootstrap 500 iter)...
+>> Solving Mystery 2 (Dynamic, Window=60)...
+   -> Average R² over rolling period: 0.9667
+
+>> Generating enriched charts...
+   -> Graph generated: 01_Efficient_Frontier.png
+   -> Graph generated: 02_Correlation_Heatmap.png
+   -> Graph generated: 03_Global_Performance_Comparison.png
+   -> Graph generated: 04_Asset_Tracking_Details.png
+   -> Graph generated: 05_Cluster_Performance.png
+   -> Graph generated: 06_Mystery1_Uncertainty.png
+   -> Graph generated: 07_Mystery2_Dynamic_Evolution.png
+
+================================================================================
+PROCESSING COMPLETED in 0:00:04.349310
+7 Charts generated in: Results/Graphs
+================================================================================
