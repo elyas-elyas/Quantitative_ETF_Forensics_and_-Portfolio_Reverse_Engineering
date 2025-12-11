@@ -6,6 +6,8 @@
 
 A financial toolkit designed for **Asset Classification**, **Risk Profiling**, and the **Reverse-Engineering** of "Mystery" portfolios. This project combines a high-performance calculation engine for batch reporting and an interactive dashboard for real-time analysis.
 
+Link to the Dashboard: 
+https://dashboardpythfin.streamlit.app/
 ---
 
 ## Project Objective
@@ -91,7 +93,7 @@ pip
 1.  **Clone the repository**
 
 ```bash
-git clone
+git clone https://github.com/elyas-elyas/Quantitative_ETF_Forensics_and_Portfolio_Reverse_Engineering
 cd quantitative-etf-forensics
 ```
 
@@ -110,6 +112,7 @@ python forensics_engine.py
 
 4.  **Launch the Dashboard (Interactive Mode)**  
     *Opens the web interface for dynamic exploration.*
+    https://dashboardpythfin.streamlit.app/
 
 ```bash
 streamlit run dashboard.py
